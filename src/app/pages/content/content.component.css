@@ -7,11 +7,14 @@
   height: 100vh;
   margin: auto;
   margin-top: 20px;
+}
 
+.articles__others {
   display: flex;
-  flex-direction: column;
-
+  flex-wrap: wrap;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -32,5 +35,5 @@ h1 {
 
 .content__description > p{
   margin-top: 20px;
-  color: rgb(198, 197, 197);
+  color: black;
 }
