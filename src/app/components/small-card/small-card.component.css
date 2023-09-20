@@ -1,5 +1,10 @@
 .container__small-card{
-  width: 700px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+  width: 50vw;
   margin-bottom: 15px;
 }
 
@@ -20,6 +25,3 @@
   align-items: center;
 }
 
-.container__small-card__separator{
-  margin-top: 10px;
-}

@@ -3,11 +3,27 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #111111;
-  color:white;
+}
+
+p {
   font-family: 'Segoe UI';
+}
+
+body {
+  background-color: #111111;
+  background-image: url("bg.jpg");
+  font-family: 'Segoe UI';
+
 }
 
 a{
   text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #752072;
+
+}
+
+h1 {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: 300;
 }

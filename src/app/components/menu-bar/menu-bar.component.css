@@ -1,8 +1,14 @@
-
-
-.container__menu-bar > ul{
+.container__menu-bar > ul, a{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: beige;
+  font-weight: 200;
+}
+
+.container__menu-bar {
+  width: 100vw;
 }
 
 .container__menu-bar > ul > li{

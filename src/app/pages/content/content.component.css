@@ -1,8 +1,11 @@
 .container__content{
-
-  width: 100%;
+  background-color: beige;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  width: 80%;
   height: 100vh;
-
+  margin: auto;
   margin-top: 20px;
 
   display: flex;
@@ -11,8 +14,12 @@
   align-items: center;
 }
 
+h1 {
+  color: blueviolet;
+}
+
 .content__cover > img{
-  border:5px solid rgb(144, 144, 144);
+  border: 5px solid #4ac2a9;
   border-radius: 5px;
   width: 500px;
   min-width: 500px;

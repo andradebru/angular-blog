@@ -2,11 +2,13 @@
   color: white;
 }
 
-.container__menu-title > h1{
+.container__menu-title > h1, a{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 18vw;
+  font-size: 10vw;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 8px 8px #92268e;
+  color: #4ac2a9;
   display: flex;
   justify-content: center;
 }
