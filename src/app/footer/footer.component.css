@@ -1,0 +1,8 @@
+.footer {
+  font-weight: 500;
+  margin: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px #92268e;
+}
