@@ -1,10 +1,12 @@
 .container__content{
-  background-color: beige;
-  border-radius: 20px;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: beige;
+  border-radius: 10px;
   padding: 20px;
   width: 80%;
-  height: 100vh;
+  height: auto;
   margin: auto;
   margin-top: 20px;
 }
@@ -18,22 +20,42 @@
 }
 
 h1 {
-  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+  color: #92268e;
+}
+
+hr {
+  color: #4ac2a9;
 }
 
 .content__cover > img{
+  display: flex;
+  margin: auto;
   border: 5px solid #4ac2a9;
   border-radius: 5px;
   width: 500px;
   min-width: 500px;
   height: 300px;
+  object-fit: cover;
 }
 
-.content__description{
-  margin-top: 15px;
+.content__texts{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.content__description > a{
+  font-weight: 100;
 }
 
 .content__description > p{
-  margin-top: 20px;
+  color: rgb(66, 66, 66);
+}
+
+.content__text > p{
   color: black;
+  font-size: 12px;
 }
