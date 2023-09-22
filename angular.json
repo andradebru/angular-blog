@@ -14,16 +14,16 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "index": "docs/index.html",
+            "main": "docs/main.d01a0376635e0a0a.js",
+            "polyfills": "docs/polyfills.e1f99951addee5e3.js",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "docs/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "docs/styles.c596e0e7e55a82e6.css"
             ],
             "scripts": []
           },
